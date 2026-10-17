@@ -1,0 +1,20 @@
+{
+  "name": "safe-sender-pro-local",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Local WhatsApp contact tool with opt-in, manually selected messaging",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "express": "^5.2.1",
+    "pino": "^10.3.1",
+    "socket.io": "^4.8.3",
+    "qrcode": "^1.5.4"
+  }
+}
